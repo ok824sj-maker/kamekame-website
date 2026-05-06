@@ -532,11 +532,11 @@
   <div class="hero-content">
     <p class="hero-label">Kamekame Co., Ltd.</p>
     <h1 class="hero-title">
-      確かな目利きで、<br>
-      <span>価値をつなぐ。</span>
+      良い品を、<br>
+      <span>あなたの手元へ。</span>
     </h1>
     <p class="hero-desc">
-      株式会社かめかめは、Amazon・メルカリを中心とした<br>
+      株式会社かめかめは、AmazonおよびYahoo!ショッピングを中心とした<br>
       Eコマース事業を展開する大阪のEC専門企業です。<br>
       お客様に最高の商品体験をお届けします。
     </p>
@@ -588,7 +588,7 @@
       </tr>
       <tr>
         <th>取扱プラットフォーム</th>
-        <td>Amazon Japan、メルカリ、Yahoo!ショッピング</td>
+        <td>Amazon Japan、Yahoo!ショッピング</td>
       </tr>
       <tr>
         <th>屋号</th>
@@ -655,10 +655,10 @@
     </div>
     <div class="business-card fade-in" style="transition-delay:0.1s;">
       <div class="card-num">02</div>
-      <h3 class="card-title">メルカリ・フリマ販売</h3>
+      <h3 class="card-title">Yahoo!ショッピング販売</h3>
       <p class="card-desc">
-        メルカリをはじめとするフリマプラットフォームにて、
-        個人向けの商品販売を展開。丁寧なコミュニケーションで
+        Yahoo!ショッピングにて、
+        幅広い商品を販売。丁寧なコミュニケーションで
         リピーターを獲得しています。
       </p>
     </div>
@@ -743,18 +743,4 @@
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
   // Nav active on scroll
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links a');
-  window.addEventListener('scroll', () => {
-    let current = '';
-    sections.forEach(s => {
-      if (window.scrollY >= s.offsetTop - 100) current = s.id;
-    });
-    navLinks.forEach(a => {
-      a.style.color = a.getAttribute('href') === `#${current}`
-        ? 'var(--gold-light)' : 'rgba(255,255,255,0.75)';
-    });
-  });
-</script>
-</body>
-</html>
+  const sections = document.querySelectorAll('sec
